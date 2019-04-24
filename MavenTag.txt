@@ -1,0 +1,5 @@
+groupId:域.公司名称。
+        域又分为org、com、cn等等许多，其中org为非营利组织，com为商业组织。
+        举个apache公司的tomcat项目例子：这个项目的groupId是org.apache，它的域是org（因为tomcat是非营利项目），公司名称是apache
+        artifactId是tomcat。
+artifactId:功能命名
