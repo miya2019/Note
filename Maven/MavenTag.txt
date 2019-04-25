@@ -1,12 +1,20 @@
-groupId:域.公司名称。
+1. groupId:域.公司名称。
         域又分为org、com、cn等等许多，其中org为非营利组织，com为商业组织。
         举个apache公司的tomcat项目例子：这个项目的groupId是org.apache，它的域是org（因为tomcat是非营利项目），公司名称是apache
         artifactId是tomcat。
-artifactId:功能命名
-packaging: 打包方式，默认是jar
+2. artifactId:功能命名
+3. packaging: 打包方式，默认是jar
 
 例：
 一个test项目
 groupId: cn.wmc
 artifactId: testProject
 包名: cn.wmc.testProject.dao.xxx
+
+4. scope
+   a) compile: spring-core
+   b) test
+   c) provided: servlet
+   d) runtime: 例如JDBC驱动实现
+   e) system: 本地一些jar
+
