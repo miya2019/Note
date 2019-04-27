@@ -1,1 +1,2 @@
 mvn dependency:tree (or mvn dependency:tree > d.txt)
+mvn clean package -U(强制拉一次，项目运行，不会自动更新本地项目的dependency版本)
